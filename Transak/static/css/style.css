@@ -1,0 +1,81 @@
+.header {
+    display:  block;
+}
+
+.nav-container {
+    
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav h1 {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.list-nav {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center ;
+}
+
+.list-nav button {
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(130, 225, 130);
+    padding: 10px;
+    margin-top: 3px;
+    margin-left: 250px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.nav-item {
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 2px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.nav-item a {
+    margin-top: 2px;
+}
+.nav-item:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.main-wrapper-body {
+    margin-top: 5%;
+}
+
+.body-container {
+}
+
+.body-content {
+    display: flexbox;
+    margin-top: 13%;
+}
+
+.Cp1{
+    margin-left: 4rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: left;
+}
+
+.body-content button{
+    padding: 1rem 5rem;
+    margin-left: 14rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
